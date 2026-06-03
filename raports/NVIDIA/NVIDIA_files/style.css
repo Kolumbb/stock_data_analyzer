@@ -1,0 +1,17 @@
+.mb-header, .mb-menu {
+	display: none;
+}
+img {
+	max-width: 100%;
+	height: auto;
+}
+.textImage, .ePlayer {
+	max-width: 100%;
+}
+.textImage img {
+	height: auto;
+}
+
+.social .social-embed .instagram-media {
+	min-width: 0 !important;
+}

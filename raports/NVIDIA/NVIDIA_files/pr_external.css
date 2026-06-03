@@ -1,0 +1,25 @@
+/* pr_external plugin styles */
+
+.prexternal-link {
+}
+.prexternal-icon {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  vertical-align: middle;
+  margin-left: .5em; 
+  cursor: pointer;
+  background: url(pr_external_images.png) no-repeat -9999px -9999px;
+}
+.prexternal-icon-pdf { background-position: -32px 0; }
+.prexternal-icon-doc { background-position: -64px 0; }
+.prexternal-icon-ppt { background-position: 0 -32px; }
+.prexternal-icon-xls { background-position: -32px -32px; }
+.prexternal-icon-arc { background-position: -64px -32px; }
+.prexternal-icon-ext {
+  background-position: 0 0;
+  width: 12px;
+  height: 12px;
+  margin-left: .3em;
+}
+
