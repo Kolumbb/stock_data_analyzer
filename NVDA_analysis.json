@@ -1,0 +1,101 @@
+{
+  "company": "NVIDIA Corporation",
+  "ticker": "NVDA",
+  "period": "FY2026 + Q1 FY2027 (quarter ended April 26, 2026)",
+  "currency": "USD",
+  "income": {
+    "revenue": 81615,
+    "ebit": 53536,
+    "ebitda": 54533,
+    "net_income": 58321,
+    "gross_profit": 61157,
+    "operating_expenses": 7621,
+    "interest_expense": 102
+  },
+  "margins": {
+    "gross_margin_pct": 74.9,
+    "operating_margin_pct": 65.6,
+    "net_margin_pct": 71.5,
+    "ebitda_margin_pct": 66.8
+  },
+  "balance_sheet": {
+    "total_assets": 259474,
+    "total_equity": 195474,
+    "total_debt": 8470,
+    "cash_and_equivalents": 13237,
+    "current_assets": 150995,
+    "current_liabilities": 43884,
+    "inventories": 25797
+  },
+  "returns": {
+    "roe_pct": 33.1,
+    "roa_pct": 25.0,
+    "roic_pct": 30.4
+  },
+  "leverage": {
+    "debt_to_equity": 0.04,
+    "debt_to_assets_pct": 3.3,
+    "net_debt": -4767,
+    "interest_coverage": 524.9
+  },
+  "liquidity": {
+    "current_ratio": 3.44,
+    "quick_ratio": 2.85,
+    "cash_ratio": 0.3
+  },
+  "cash_flow": {
+    "operating_cf": 50344,
+    "free_cash_flow": 48554,
+    "fcf_margin_pct": 59.5
+  },
+  "per_share": {
+    "eps_basic": 2.4,
+    "eps_diluted": 2.39,
+    "eps_non_gaap": 1.87
+  },
+  "scorecard": {
+    "revenue_growth": 10,
+    "profitability": 10,
+    "balance_sheet": 9,
+    "liquidity": 9,
+    "competitive_position": 10,
+    "risks": 5,
+    "momentum": 10,
+    "valuation": 5
+  },
+  "verdict": {
+    "recommendation": "AKUMULUJ",
+    "total_score": 82,
+    "summary": "NVIDIA wykazuje fenomenalny wzrost przychodów (+85% r/r w Q1 FY2027) napędzany eksplozją popytu na infrastrukturę AI, z przychodami Data Center rosnącymi o 92% r/r. Marża brutto znormalizowała się do ~75% po jednorazowym obciążeniu H20 w roku ubiegłym, a wolne przepływy pieniężne na poziomie $48.6 mld kwartalnie są wyjątkowe. Główne ryzyka to restrykcje eksportowe USA wobec Chin (utrata ~$4.6 mld kwartalnego przychodu z Chin), rosnąca konkurencja ze strony ASIC-ów klientów oraz potencjalne spowolnienie cyklu inwestycyjnego w AI.",
+    "bulls": [
+      "Dominująca pozycja na rynku GPU dla AI z ekosystemem CUDA i 7.5 mln deweloperów",
+      "Wzrost przychodów +85% r/r z kolejną platformą Rubin w pipeline",
+      "Rekordowy FCF ~$48.6 mld kwartalnie z marginesem FCF ~60%",
+      "Dywersyfikacja przychodów - Hyperscale 50%, ACIE/Enterprise 50% Data Center",
+      "Agresywny zwrot kapitału - $20 mld buyback kwartalnie + podwyżka dywidendy 25x"
+    ],
+    "bears": [
+      "Restrykcje eksportowe USA blokują dostęp do chińskiego rynku data center (~$19.7 mld rocznie utraconych przychodów)",
+      "Koncentracja klientów - 3 klientów to 54% przychodów w Q1 FY2027",
+      "Ryzyko cykliczności capex AI - potencjalne spowolnienie inwestycji hyperscalerów",
+      "Rosnąca konkurencja od custom ASIC (Google TPU, Amazon Trainium, AMD MI-series)",
+      "Ogromne zobowiązania zakupowe ($119 mld manufacturing + $30 mld cloud) tworzą ryzyko nadmiernych zapasów"
+    ],
+    "horizon": {
+      "short": "Guidance Q2 FY2027 na $91 mld (+12% q/q) potwierdza silny momentum; Blackwell 300 i networking napędzają wzrost",
+      "medium": "Platforma Rubin (H2 FY2027) i dywersyfikacja do ACIE/Enterprise powinny podtrzymać wzrost, choć marże mogą się ustabilizować w przedziale 73-76%",
+      "long": "Dominacja ekosystemu CUDA i coroczna kadencja nowych architektur zabezpieczają pozycję, ale ryzyko regulacyjne i rozwój alternatywnych chipów AI stanowią zagrożenie"
+    },
+    "entry_strategy": "Ze względu na bardzo wysoką wycenę rynkową, rekomendowane jest stopniowe budowanie pozycji na korektach cenowych. Rozważyć wejście w transzach przy spadkach 10-15% od szczytów, z horyzontem inwestycyjnym minimum 2-3 lata."
+  },
+  "yoy_changes": {
+    "revenue_yoy_pct": 85.3,
+    "net_income_yoy_pct": 210.6,
+    "ebit_yoy_pct": 147.4
+  },
+  "missing_data": [
+    "Dokładna kwota EBITDA nie jest bezpośrednio raportowana - oszacowano jako EBIT + D&A",
+    "ROIC oszacowany na bazie przybliżonego zainwestowanego kapitału",
+    "ROE i ROA obliczone na bazie kwartalnego dochodu netto zannualizowanego vs bilans na koniec okresu - mogą różnić się od faktycznych wartości rocznych"
+  ]
+}

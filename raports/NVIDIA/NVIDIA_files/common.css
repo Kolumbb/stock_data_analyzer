@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+	padding: 0;
+}
+a img { border: none; }
+
+.menu-list {
+	margin: 0;
+	padding: 0;
+	list-style-position: outside;
+}
+.menu-list li {
+	list-style: none;
+  list-style-image: none;
+}
+
+.clear {
+	clear: both;
+  font-size: 1px;
+}
+.clearfix:after {content: "."; display: block; height: 0; clear: both; visibility: hidden; font-size: 0; }
+.clearfix { #display: inline-block; /* IE6-7 */}
+  
+
+.right {
+	float: right;
+}
+
+.sys-form {
+	margin: 0;
+	padding: 0;
+}
+
+/* dl */
+.sys-dl,
+.sys-dl dd {
+  margin: 0
+}
+.inline-dl dt, 
+.inline-dl dd {
+  display: inline;
+} 
+.float-dl dt {
+  float: left;
+  clear: left;
+}
+
+
+wbr:after {content: "\00200B";} /* for Opera */
+
+
+/* system messages */
+#pnlMessage {
+  color: red;
+  margin: .5em 0;
+}
